@@ -1,0 +1,142 @@
+.datepicker {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: #000;
+}
+.datepicker #month-wrap {
+    background-color: #373737;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    padding: 8px 10px 6px 10px;
+    min-height: 26px;
+}
+
+.datepicker #month-wrap ul {
+  margin: -27px 0 0 0;
+  padding: 0;
+  list-style: none outside;
+}
+
+.datepicker #month-wrap li {
+  background: transparent none;
+  display: inline-block;
+  padding: 8px 0 0 2px;
+  margin: 0;
+  float: left;
+}
+
+.datepicker #month-wrap li:before {
+    content: none;
+}
+
+.datepicker #month-wrap li.btn-next {
+    float: right;
+}
+
+.datepicker #bn_prev:hover,
+.datepicker #bn_prev:focus,
+.datepicker #bn_prev:active,
+.datepicker #bn_next:hover,
+.datepicker #bn_next:focus,
+.datepicker #bn_next:active {
+    outline: 1px dotted #fff;
+}
+
+.datepicker #month {
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.datepicker #cal {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datepicker #cal:focus {
+    outline: 1px dotted #e5e5e5;
+}
+
+.datepicker #cal th {
+    color: #000;
+    background: #f3f3f3;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.datepicker #weekdays {
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.datepicker #cal td {
+    background-color: #e5e5e5;
+    border: 1px solid #cfcfcf;
+    padding: 7px 5px;
+}
+
+.datepicker #cal td.today,
+.datepicker #cal td.focus {
+    background-color: #0060af;
+    color: #fff;
+    padding: 7px 5px 5px 5px;
+}
+
+.datepicker #cal td.today {
+    background-color: #666;
+}
+
+.datepicker #cal td.today span,
+.datepicker #cal td.focus span {
+    border-bottom: 2px solid #0060af;
+    display: block;
+}
+
+.datepicker #cal td.today span {
+    border-bottom: 2px solid #666;
+}
+
+
+.datepicker #cal td.today span span,
+.datepicker #cal td.focus span span {
+    border-bottom: none;
+    display: inline;
+}
+
+.datepicker #cal td:hover,
+.datepicker #cal td:focus {
+    background-color: #0060af;
+    color: #fff;
+}
+
+.datepicker #cal td.today:hover span,
+.datepicker #cal td.today:focus span {
+    border-bottom: 2px solid #0060af;
+}
+
+.datepicker #cal td.empty {
+    background-color: #f3f3f3;
+    color: #666;
+}
+
+.datepicker #cal tr:last-child td {
+    border-bottom: none;
+}
+
+.datepicker #cal td:first-child {
+    border-left: none;
+}
+
+.datepicker #cal td:last-child {
+    border-right: none;
+}
+
+.datepicker abbr {
+    border: none;
+    cursor: inherit;
+}

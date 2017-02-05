@@ -1,0 +1,182 @@
+body{
+     background-image:url("back3.jpg");
+     background-size:cover;
+}
+.audio{
+	width: 50%;
+	height: 100%;
+}
+.B_svg{
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px; 
+}
+.foo{
+  background-color: black;
+  opacity:  0.8;
+  margin-right: 30%;
+  float: left;
+  background-size: 60%;
+}
+.nr{
+	background-color: red;
+}
+.head{
+	backface-visibility: hidden;
+	width: 100%;
+	height: 80px;
+	font-size: 250%;
+	background-image:url("n1.jpg") ;
+	 font-family: "Times New Roman", Times, red serif;
+	/* color:rgba(255,255,255,0);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;*/
+};
+
+.na{
+	background-color: white;
+	height: 50px;
+}
+.f{
+margin-left: 28cm;
+}
+.navRight{
+	background-color: black;
+	opacity:  0.8;
+	width: 17%;
+	height: 125%;
+	float: right;
+	right: 7%;
+	position:absolute;
+	margin-left: 70%;
+	top:27%;
+}
+.insta{
+	float: right;
+	right:20cm;
+	width:2.5%;
+	height: 2.5%;
+	margin-top:0px;
+
+}
+.home{
+	top:20%;
+	float: left;
+	margin-left: 3%;
+	left:20cm;
+	width:3%;
+	height: 3%;
+
+}
+.b1{top:5%;
+	margin-top: 0.5%;
+	width: 22.5%;
+	height: 100%;
+	float: left;
+	border:none;
+	 background-color: #ffd700;
+}
+.b2{top:5%;
+	margin-top: 0.5%;
+	width: 22.5%;
+	float: left;
+	border:none;
+	background-color: #ffd700;
+}
+.b3{top:5%;
+	margin-top: 0.5%;
+	width: 22.5%;
+	float: left;
+	background-color: #ffd700;
+	border:none;
+}
+.b4{top:5%;
+	margin-top: 0.5%;
+	width: 22.5%;
+	float: left;
+	border:none;
+	background-color: #ffd700;
+}
+.a1{
+	color: #ffd700;
+}
+.a2{
+	color: #ffd700;
+}
+.im1{
+	width: 100%;
+	height: 5%;
+
+}
+.im2{
+	width: 100%;
+	height: 5%;
+}
+.Pencil{
+	 fill: black;
+  opacity: 0.5 ;
+  margin-right: 5%;
+  float: center;
+  background-size: 90%;
+
+}
+.watercolor{
+	 fill: black;
+  opacity: 0.8 ;
+  margin-right: 5%;
+  float: center;
+  background-size: 90%;
+
+}
+.p{
+	color: 	yellow;
+	font-size: 200%;
+	margin-right: 15%;
+
+}
+.head1{
+	backface-visibility: hidden;
+	width: 100%;
+	height: 80px;
+	color: #ffd700;
+	font-size: 250%;
+	background-image:url("n1.jpg") ;
+	 font-family: "Times New Roman", Times, red serif;
+	}
+	.bod{
+		background-color:black;
+		opacity: 	0.8;
+	}
+	.mix{
+		color: white;
+		margin-top: 10px;
+	}
+	.arts{
+		color: black;
+		margin-top: 10px;
+		color: #ffd700;
+	}
+	.b5{
+		width: 100%;
+		height: 5%;
+		background-color:black;
+		color:#ffd700;
+
+	}
+	.b6{
+		width: 100%;
+		height: 5%;
+		background-color:black;
+		color:#ffd700;
+	}
+	.txt{
+		font-color:black;
+		font-size: 20%;
+	}
+	.p{
+		color:yellow;
+	}
