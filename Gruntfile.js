@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     concat: {
       option:{
-        separator:';'
+      //  separator:';'
       },
       
       dis:{
@@ -86,14 +86,12 @@ module.exports = function(grunt) {
     },
   });
 
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-eslint');
-  grunt.loadNpmTasks('grunt-mocha-test');
-  grunt.loadNpmTasks('grunt-shell');
-  grunt.loadNpmTasks('grunt-nodemon');
+ grunt.loadNpmTasks('grunt-contrib-jshint');
+ grunt.loadNpmTasks('grunt-contrib-watch');
+ grunt.loadNpmTasks('grunt-contrib-cssmin');
+ grunt.loadNpmTasks('grunt-mocha-test');
+ grunt.loadNpmTasks('grunt-shell');
+ grunt.loadNpmTasks('grunt-nodemon');
 
  grunt.registerTask('server-dev', function (target) {
    // Running nodejs in a different process and displaying output on the main console
