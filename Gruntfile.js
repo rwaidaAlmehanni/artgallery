@@ -113,14 +113,12 @@ module.exports = function(grunt) {
 
  grunt.registerTask('test', [
    /* START SOLUTION */
-   'jshint',
-   /* END SOLUTION */
-   'mochaTest'
+   'jshint'
  ]);
 
  grunt.registerTask('build', [
-   'concat',
-   'uglify',
+   // 'concat',
+   // 'uglify',
    'cssmin'
  ]);
 
